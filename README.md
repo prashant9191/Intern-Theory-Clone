@@ -35,5 +35,4 @@ HTML, CSS, Javascript
 
 6.Checkout Page for payments.
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/prashant9191/github-readme-stats)
 
