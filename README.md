@@ -12,7 +12,7 @@ To connect  employers to young talent all over India.
 
 HTML, CSS, Javascript
 
-#Duration -
+# Duration -
 
 5 Days (Solo Project)
 
