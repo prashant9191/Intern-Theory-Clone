@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="icon" href="https://s3.ap-south-1.amazonaws.com/interntheory/creative/favicon.ico"  type="image/x-icon">
+    <link rel="stylesheet" href="./cart_page.css">
+
+
+    <!-- for nav bar and side bar -->
+<script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+<script src="https://kit.fontawesome.com/b4c8ae89b2.js" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+    $('.sliderbtn').click(function(){
+     $('.sliderbtn').toggleClass('active');
+     $('#sidebar').toggleClass('inandout');
+     })
+   })
+ </script>
+ <!-- for nav bar and side bar -->
+
+</head>
+<body>
+    <!-- nav bar and slider bar -->
+    <div class="header">
+        <div  style="margin-left: 80px;">
+            <a href="./index.html"><img src="./HOME PAGE IMG/logo.png" style="width: 200px;" alt=""></a>
+        </div>
+        <div style="width: 250px;display: flex;justify-content: space-around;margin-right: 50px;">
+           <a href="./cart.html"><img src="./HOME PAGE IMG/cart.png" style="width: 25px;" alt=""></a>
+           <a href="./sign_in.html"><button style="background-color: red;color: white;border: none; padding: 10px 15px 10px 15px; border-radius: 5px;font-size: 10px;font-weight: bold;">SIGN IN</button></a>
+        </div>
+    </div>
+      <div id="sidebar">
+        <header>
+          <button class="sliderbtn">
+             <div class="hamburger">
+  
+             </div>
+          </button>
+          <ul>
+            <li><a href="./index.html"><i class="fa fa-bars"></i><img src="./HOME PAGE IMG/logo.png" style="width: 150px;height: 45px;position: absolute;" alt=""></a></li>
+            <li><a href="./index.html"><i class="fa fa-house"></i>Home</a></li>
+            <li><a href="./internship.html" target="_blank"><i class="fa fa-list"></i>Internships</a></li>
+            <li><a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+            <li><a href="./courses.html" target="_blank"><i class="fa fa-file"></i>Courses</a></li>
+            <li><a href="https://www.interntheory.com/contact" target="_blank"><i class="fa fa-phone"></i>Contact Us</a></li>
+            <li><a href="./registeration.html" target="_blank"><i class="fa fa-address-card"></i>Register</a></li>
+            <li><a href="./sign_in.html" target="_blank"><i class="fa fa-right-to-bracket"></i>Login</a></li>
+          </ul>
+        </header>
+      </div>
+      <h4 id="h4_empty_cart"></h4>
+      <h4 id="h4_empty_cart_url"></h4>
+      <!-- cart section  -->
+<div id="cart_div_main">
+    <div>
+        <div id="appendcart">
+        </div>
+    </div>
+    <div id="empty_div">
+
+    </div>
+    <div id="price_details">
+        <div>
+            <p>Amount</p>
+            <p id="amt"></p>
+        </div>
+        <div>
+            <p>CGST 9%</p>
+            <p id="cgst"></p>
+        </div>
+        <div>
+            <p>SGST 9%</p>
+            <p id="sgst"></p>
+        </div>
+        <div>
+            <h2>Total:</h2>
+            <h2 id="total_price"></h2>
+        </div>
+     <div id="go_div">
+        <form id="form" >
+            <input id="coupon" type="text" placeholder="Coupon Code">
+            <input type="submit" id="GO" value="GO">
+        </form>
+     </div>
+     <div>
+        <button id="chekcout" class="btn" onclick="openPopup()">CHECKOUT</button>
+     </div>
+     <p id="emis"></p>
+    </div>
+</div>
+
+
+<!-- chekcout form pop up -->
+<div class="signupPopupContainer">
+    <div class="signupPopupdiv" id="popup"> 
+      <span class="signupPopupSpan" onclick="closeSignup()"><i class="fa-solid fa-xmark"></i></span>
+  
+            <div id="checkout_form">
+              <h4 class="pay_method">You Are Buying These:-</h4>
+                <div id="cour_detail">
+                 
+                </div>
+                <h4 class="pay_method">Payment Method</h4>
+                <div id="card_method">
+
+                </div>
+                <div >
+                  <div>
+                    <input id="card_num" type="number" placeholder="Enter Your Card No...">
+                  </div>
+                  <div id="card_info">
+                    <input type="text" placeholder="MM / YY">
+                    <input type="text" placeholder="CVV">
+                  </div>
+                </div>
+                <div>
+                  <input id="name_on_card" type="text" placeholder="Name On Card">
+                </div>
+                <div>
+                  <button id="sub_mit_pay">PAY</button>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+      <!-- footer part -->
+      <div id="footer">
+        <div id="top_footer">
+          <div id="logo_footer_container">
+            <div id="logo_footer">
+              <li><a href="https://www.facebook.com/interntheory"target="_blank"><i class="fa-brands fa-square-facebook fa-2x "style="color:white"></i></a></li>
+              <li><a href="https://www.linkedin.com/company/interntheory/"target="_blank"><i class="fa-brands fa-linkedin fa-2x"style="color:white"></i></a></li>
+              <li><a href="https://twitter.com/InternTheory"target="_blank"><i class="fa-brands fa-square-twitter fa-2x"style="color:white"></i></a></li>
+              <li><a href="https://www.instagram.com/interntheory/" target="_blank"><i class="fa-brands fa-square-instagram fa-2x"style="color:white"></i></a></li>
+            </div>
+          </div>
+          <div id="filter_by">
+            <div id="by_place">
+              <li style="border-bottom: 1px solid;margin-bottom: 6px;">BY PLACE</li>
+              <li><a href="./internship.html"></a>Internship In Mumbai</li>
+              <li><a href="./internship.html"></a>Internship In Delhi</li>
+              <li><a href="./internship.html"></a>Internship In Banglore</li>
+              <li><a href="./internship.html"></a>Internship In Pune</li>
+              <li><a href="./internship.html"></a>Internship In Hydrabad</li>
+             </div>
+             <div id="profile">
+               <li style="border-bottom: 1px solid;margin-bottom: 6px;">BY PROFILE</li>
+               <li><a href="./internship.html"></a>Marketing Internship</li>
+               <li><a href="./internship.html"></a>Business Development Internship</li>
+               <li><a href="./internship.html"></a>Content Writing Internship</li>
+               <li><a href="./internship.html"></a>Graphic Desigining Internship</li>
+               <li><a href="./internship.html"></a>HR Internship</li>
+               <li><a href="./internship.html"></a>Engineering Internship</li>
+             </div>
+             <div id="by_type">
+               <li style="border-bottom: 1px solid;margin-bottom: 6px;">BY PROFILE</li>
+               <li><a href="./internship.html"></a>Full Time Internship</li>
+               <li><a href="./internship.html"></a>Part Time Internship</li>
+               <li><a href="./internship.html"></a>Work From Home Internship</li>
+             </div>
+          </div>
+          
+        </div>
+        <div id="bottom_footer">
+          <a href="https://www.interntheory.com/refund-and-cancellation-policy" target="_blank"><p>REFUND & CANCELLATION POLICY</p></a>
+          <a href="./courses.html"><p>COURSES</p></a>
+          <a href="https://www.interntheory.com/terms"target="_blank"><p>TERMS AND CONDITIONS</p></a>
+          <a href="https://www.interntheory.com/privacy"target="_blank"><p>PRIVACY POLICY</p></a>
+          <a href="https://www.interntheory.com/contact"target="_blank"><p>CONTACT US</p></a>
+          <a href="https://www.interntheory.com/about"target="_blank"><p>ABOUT US</p></a>
+          <p>SITEMAP</p>
+        </div>
+        <p>© 2015 - 2022 INTERNTHEORY. ALL RIGHTS RESERVED.</p>
+      </div>    
+    
+</body>
+<Script src="./cart_page.js"></Script>
+
+</html>

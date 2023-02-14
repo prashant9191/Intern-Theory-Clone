@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body {
+      font-family:'Times New Roman', Times, serif;
+    };
+/* styles for navigation side bar */
+.fa{
+    color: rgb(81, 81, 81);
+}
+#sidebar{
+    position: fixed;
+    top:0;
+    width: 290px;
+    height: 100%;
+    background:teal ;
+    left: -290px;
+    transition: .5s;
+    z-index: 999;
+}
+#sidebar.inandout{
+    left: 0;
+}
+#sidebar header{
+    font-size: 22px;
+    color: gray;
+    text-align: left;
+   
+    line-height: 40px;
+    user-select: none;
+}
+#sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(255,255,255,.1);
+    transition: .2s;
+}
+ul li:hover{
+    padding-left: 15px;
+    transition: .4s;
+}
+#sidebar ul a i{
+    margin-right: 30px;
+}
+.sliderbtn{
+    position: absolute;
+    z-index: 20;
+    top: 15px;
+    right:-50px ;
+    width: 35px;
+    height: 35px;
+    outline: none;
+    border: none;
+    transition: .4s;
+}
+.hamburger{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30px;
+    height: 3px ;
+    background: #262626;
+}
+.hamburger::after{
+    top: 12px;
+    
+}
+.hamburger::before{
+    top: -12px;
+    
+}
+.hamburger::after,
+.hamburger::before{
+position: absolute;
+content: "";
+width: 30px;
+height: 3px;
+background: #262626;
+left: 0;
+transition: .3s;
+z-index: 100;
+
+}
+.sliderbtn.active .hamburger{
+   background: none;
+}
+.sliderbtn.active .hamburger::after{
+   transform: rotate(-45deg);
+   top: 0;
+   
+}
+.sliderbtn.active .hamburger::before{
+    transform: rotate(45deg);
+    top: 0;
+}
+/* center navigaton bar  */
+.header{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    z-index:900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px 0px 5px 0px;
+    /* z-index: 800; */
+}
+
+/* adding styles for registration form  */
+
+
+#registration{
+    position:absolute;
+    top: 128px;
+    width: 40%;
+    left: 30%;
+    padding: 25px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#registration>div>h5{
+    font-size: 20px;
+    font-weight: 500;
+}  
+#registration>div>h6{
+    font-size: 14px;
+    font-weight: 500;
+    color: #616161;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}  
+#registration>div>h6>a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #1976D2;
+}  
+#registration>div>p{
+    font-weight: 450;
+    padding: 5px 0px 5px 10px;
+    border:dashed;
+    border-color:#FFAB91 ;
+    background-color: #FBE9E7;
+    border-radius: 5px;
+}  
+#registration>div>p>a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #1976D2;
+}
+#registration>div>div{
+    display: flex;
+}
+#registration>div>div>li{
+    border: 1px solid rgb(255, 0, 221);
+}
+#registration>div>div>a>i{
+    color: white;
+}
+#registration>div>h6:last-of-type{
+    text-align: center;
+}
+#login_with{
+    margin-top: 10px;
+    background-color:#7986CB ;
+    /* padding-left: 2%; */
+    padding: 5px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#login_with>span{
+    margin-left: 23%;
+    color: white;
+    font-size: 15px;
+}
+#login_with>a{
+    margin-left: 3%;
+}
+#login_with_g>span{
+    margin-left: 23%;
+    color: white;
+    font-size: 15px;
+}
+#login_with_g>a{
+    margin-left: 3%;
+}
+#login_with_g{
+    background-color:#1E88E5 ;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#registration>div>div>input{
+    /* border: 1px solid red; */
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+    margin-bottom: 6 px;
+    height: 30px;
+    padding: 5px 5px 0 5px;
+}
+#registration>div>div:last-of-type>input:last-of-type{
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
+    margin-top: 20px;
+}
+#sub_mit_btn:hover{
+    border-bottom: none;
+}
+#sub_mit_btn>input:hover{
+    background-color:#FFEBEE ;
+    cursor: pointer;
+}
+#remember{
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* adding styles for footer */
+#footer{
+    margin-top: 30px;
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    color: white;
+    background-color: #446478;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+}
+#top_footer{
+    display: flex;
+}
+#logo_footer{
+    width: 100%;
+    margin-right: 35px;
+    margin-left:100%;
+}
+li{
+    list-style: none;  
+}
+#bottom_footer{
+    padding-top:20px;
+    display: block;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content:space-around;
+}
+#bottom_footer>a>p{
+    text-align: center;
+    color: white;
+
+}
+#bottom_footer+p{
+    text-align: center;
+    font-size: 9px;
+    margin-top: 3px;
+}
+#filter_by{
+    margin-left: 5%;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}

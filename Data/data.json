@@ -1,0 +1,394 @@
+
+{
+   "nav_bar" :[
+        {
+            "banner_img":"https://as2.ftcdn.net/v2/jpg/04/53/52/49/1000_F_453524997_efp9rdeTJJuE2QBNgP1EuF54HjAQiTTI.jpg",
+            "banner_img2":"https://t3.ftcdn.net/jpg/05/29/92/00/240_F_529920077_HSHhN7NmZrw0XhEOPCjjDovFUb9cMKFz.jpg"
+    
+        }
+    ],
+    "company_logo":[
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-1.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-2.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-3.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-4.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-6.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-7.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-8.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-9.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-10.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-11.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-12.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-13.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-14.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-15.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-16.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-17.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-18.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-19.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-20.png"
+        },
+        {
+            "comp_logo":"https://assets.interntheory.com/creative/home-logo/logo-21.png"
+        }
+    ],
+    "work_exp":[
+        {
+            "work_img":"https://i.ibb.co/xfvSKnc/marketing.png"
+        },
+        {
+            "work_img":"https://i.ibb.co/mymW90g/buss-dev.png"
+        },
+        {
+            "work_img":"https://i.ibb.co/jbYMqqg/con-writing.png"
+        },
+        {
+            "work_img":"https://i.ibb.co/ZfgNwts/graphic.png"
+        },
+        {
+            "work_img":"https://i.ibb.co/q5cBpBY/finance.png"
+        },
+        {
+            "work_img":"https://i.ibb.co/LxVLp6N/hr.png"
+        },
+        {
+            "work_img":"https://i.ibb.co/1RXDSpG/engeen.png"
+        },
+        {
+            "work_img":"https://i.ibb.co/F6jrwZz/all-intern.png"
+        }
+    ],
+    "up_skill":[
+        {
+            "Img":"https://i.ibb.co/25GcKpN/stock-trader.png"
+        },
+        {
+            "Img":"https://i.ibb.co/4Y8Tzv0/digital-marketing.png"
+        },
+        {
+            "Img":"https://i.ibb.co/nwk23wT/make-one.png"
+        }
+    ],
+    "testi_monials":[
+        {
+            "Image":"https://assets.interntheory.com/img/testimonial-image/in2.jpg",
+            "name":"Siddharth Viyyapu",
+            "intern_at":"Intern at Gooseberry Homes",
+            "testimonial":"I created my profile because I had before Intern Theory, not come across a consultancy that would execute the responsibility of getting a result for your application irrespective of being failure or success the way they did. They've set the bars really high! Kudos team!"
+        },
+        {
+            "Image":"https://assets.interntheory.com/img/testimonial-image/in3.jpg",
+            "name":"Amani Nagda",
+            "intern_at":"Intern at Viacom18",
+            "testimonial":"I was on a look out for an internship to spend my summer productively and I stumbled upon Inter Theory. Their team was very kind and kept me updated. I applied for Viacom18 and got through. I thank Intern Theory team for giving me this opportunity."
+        },
+        {
+            "Image":"https://assets.interntheory.com/img/testimonial-image/in1.jpg",
+            "name":"Sshikha Bodwaani",
+            "intern_at":"Sr. Exec. HR at BookMyShow",
+            "testimonial":"We have been using InternTheory for over a year now and are very happy with the quality of applications that we receive. Their team has been very helpful in screening applications for the various internship requirements we had. It has been a delight working with them."
+        }
+    ],
+    "intern_ship":[
+        {
+            "img":"https://assets.interntheory.com/creative/logo.png",
+            "heading":"Develop Your Skillset",
+            "company_name":"Online Skill Development Programs",
+            "type":"Taught by Industry Experts Internship",
+            "category":"Certified Courses",
+            "city":"Guaranteed Internship Opportunities",
+            "stipend":"Learn Industry-Demanded Skills"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/logos/348ebc3e1dc80c206c4ac8af46f90db576813b9d.jpg",
+            "heading":"Digital Marketing Analyst",
+            "company_name":"Fando Network",
+            "type":"Full Time Internship",
+            "category":"Digital Marketing",
+            "city":"Bangalore",
+            "stipend":"Stipend: 15000 per month"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/companylogos/62362fbf882221470f099d8d0a119df93ce19831/7e34b7356b30b3696d14fcab94c6e8989a42fd69com.jpg",
+            "heading":"Marketing Ambassador - Work from Home",
+            "company_name":"Laugh Out Loud Ventures",
+            "type":"Work From Home Internship",
+            "category":"Marketing",
+            "city":"Bangalore,Chennai,Delhi,Mumbai,Pune,Thane",
+            "stipend":"Stipend: 3000 - 10000 per month"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/companylogos/c22171e9ccc3eaa1f43a19d86be801e0341c4999/2f0c5644573472744e5586f69fb778f0959edfd7com.jpg",
+            "heading":"Content Writer",
+            "company_name":"J K Diamonds Institute of Gems & Jewelry",
+            "type":"Full Time Internship",
+            "category":"Education And Training",
+            "city":"Mumbai",
+            "stipend":"Stipend: 15000 per month"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/logos/6efdff45626352708533d4a6021e909ca9c33925.jpg",
+            "heading":"Psychology Intern",
+            "company_name":"EkakiVedam Foundation",
+            "type":"Full Time Internship",
+            "category":"Psychology",
+            "city":"Gurgaon,Mumbai,Delhi,Lucknow,Haridwar",
+            "stipend":"Stipend: 200 per sale"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/logos/47bea5aaf51cca0ed55002de9cb2bc3c050d3243.jpg",
+            "heading":"Business Development (online sales for IT)",
+            "company_name":"AfterFirst Media",
+            "type":"Full Time Internship",
+            "category":"Business Development",
+            "city":"Ahmedabad",
+            "stipend":"Stipend: 10000 per month"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/logos/47bea5aaf51cca0ed55002de9cb2bc3c050d3243.jpg",
+            "heading":"Digital Marketing Interns needed",
+            "company_name":"AfterFirst Media",
+            "type":"Full Time Internship",
+            "category":"Digital Marketing",
+            "city":"Ahmedabad",
+            "stipend":"Stipend: 10000 per month"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/logos/ffbfff5bac8dc226409e82cfa8227fac6006e342.jpg",
+            "heading":"Social Media Intern",
+            "company_name":"GypsyMoth LLP",
+            "type":"Full Time Internship",
+            "category":"Advertising",
+            "city":"Mumbai",
+            "stipend":"Stipend: 10000 per month"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/logos/7b122f8459f847f0ae7c5a6f902a748944675bf9.jpg",
+            "heading":"Content intern",
+            "company_name":"Global Supply Chain Group",
+            "type":"Full Time Internship",
+            "category":"Content Writing",
+            "city":"Gurgaon",
+            "stipend":"Stipend: 10000 per month"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/logos/ce621fc8bc71e12c2356f869eb640cdee89ce235.jpg",
+            "heading":"Digital Marketing Intern",
+            "company_name":"As Webworks",
+            "type":"Work From Home Internship",
+            "category":"Digital Marketing",
+            "city":"Pune,Mumbai,Nashik,Bangalore,Delhi",
+            "stipend":"Stipend: None"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/logos/c4b5507cf76626e428794195ca4ad5999913a027.jpg",
+            "heading":"Graphic Intern",
+            "company_name":"Listed Fans",
+            "type":"Full Time Internship",
+            "category":"Graphic Designing",
+            "city":"Delhi",
+            "stipend":"Stipend: 15000 per month"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/logos/701f0ab731adf1b77a3c35409d2e02d026fcd645.jpg",
+            "heading":"Customer Service",
+            "company_name":"Femina Flaunt",
+            "type":"Part Time Internship",
+            "category":"Customer Relationship Management",
+            "city":"Mumbai",
+            "stipend":"Stipend: 8000 - 12000 per month"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/companylogos/62362fbf882221470f099d8d0a119df93ce19831/7e34b7356b30b3696d14fcab94c6e8989a42fd69com.jpg",
+            "heading":"Human Resource Associate",
+            "company_name":"Laugh Out Loud Ventures",
+            "type":"Work From Home Internship",
+            "category":"Human Resources",
+            "city":"Mumbai,Delhi,Bangalore,Hyderabad,Chennai,Kolkata,Jaipur,Pune,Surat",
+            "stipend":"Stipend: 1000 - 5000 per month"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/companylogos/ff1f92acc57c59e5fdad716afcdcd16957b5cacb/954070775ec488151cfc622d2328556f7055d075com.jpg",
+            "heading":"Event Marketing & Sales intern",
+            "company_name":"OutCry Entertainment",
+            "type":"Full Time Internship",
+            "category":"Marketing",
+            "city":"Mumbai",
+            "stipend":"Stipend: 5000 - 15000 per month"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/companylogos/ff1f92acc57c59e5fdad716afcdcd16957b5cacb/954070775ec488151cfc622d2328556f7055d075com.jpg",
+            "heading":"Social Media Marketing Intern",
+            "company_name":"OutCry Entertainment",
+            "type":"Full Time Internship",
+            "category":"Marketing",
+            "city":"Mumbai",
+            "stipend":"Stipend: 5000 - 15000 per month"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/companylogos/ff1f92acc57c59e5fdad716afcdcd16957b5cacb/954070775ec488151cfc622d2328556f7055d075com.jpg",
+            "heading":"Event Marketing & Sales intern",
+            "company_name":"OutCry Entertainment",
+            "type":"Full Time Internship",
+            "category":"Marketing",
+            "city":"Mumbai",
+            "stipend":"Stipend: 5000 - 15000 per month"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/logos/c1a506b5f34e8b8f63fb5f3912646ff1216b4a4e.jpg",
+            "heading":"Operation Intern",
+            "company_name":"Maa Reva Vedic Food Research & Producer Co",
+            "type":"Full Time Internship",
+            "category":"Operations",
+
+            "city":"Gurgaon",
+            "stipend":"Stipend: 3000 per month"
+        }
+    ],
+    "courses":[
+        {
+            "id":1,
+            "img":"https://assets.interntheory.com/creative/courses/thumbnails/it.jpg",
+            "name":"IT Starter Pack (4 Courses)",
+            "discription":"Learn the most demanded skills in the IT industry today. Sig ...",
+            "price_b":"32999",
+            "price_a":"15999",
+            "emi":"EMI Starting at ₹ 915/month"
+        },
+        {
+            "id":2,
+            "img":"https://assets.interntheory.com/creative/courses/thumbnails/digital-marketing-course.png",
+            "name":"Digital Marketing Course",
+            "discription":"Learn the art of digital marketing. Sign up for this online ...",
+            "price_b":"11999",
+            "price_a":"5999",
+            "emi":"EMI Starting at ₹ 343/month"
+        },
+        {
+            "id":3,
+            "img":"https://assets.interntheory.com/creative/courses/thumbnails/data-analytics-r-programming-course.png",
+            "name":"Data Analytics With R Programming Course",
+            "discription":"Learn data science online. Join this online data analytics c ...",
+            "price_b":"11999",
+            "price_a":"5999",
+            "emi":"EMI Starting at ₹ 343/month"
+        },
+        {
+            "id":4,
+            "img":"https://assets.interntheory.com/creative/courses/thumbnails/web-development-course.png",
+            "name":"Web Development Course",
+            "discription":"Learn the art of web design and web development. Join this o ...",
+            "price_b":"7999",
+            "price_a":"3999",
+            "emi":"EMI Starting at ₹ 229/month"
+        },
+        {
+            "id":5,
+            "img":"https://assets.interntheory.com/creative/courses/thumbnails/tally-gst-course.png",
+            "name":"Tally + GST Course",
+            "discription":"Sign up for this online tally and gst course and learn how t ...",
+            "price_b":"7999",
+            "price_a":"3999",
+            "emi":"EMI Starting at ₹ 229/month"
+        },
+        {
+            "id":6,
+            "img":"https://assets.interntheory.com/creative/courses/thumbnails/android-app-development-kotlin-course.png",
+            "name":"Android App Development Using Kotlin Course",
+            "discription":"Learn the art of android app design and web development. Joi ...",
+            "price_b":"7999",
+            "price_a":"3999",
+            "emi":"EMI Starting at ₹ 229/month"
+        },
+        {
+            "id":7,
+            "img":"https://assets.interntheory.com/creative/courses/thumbnails/advanced-excel-course.png",
+            "name":"Advanced Excel Course",
+            "discription":"Master MS Excel. Take the online ms excel course and learn t ...",
+            "price_b":"5999",
+            "price_a":"2999",
+            "emi":"EMI Starting at ₹ 172/month"
+        },
+        {
+            "id":8,
+            "img":"https://assets.interntheory.com/creative/courses/thumbnails/r-programming-course.png",
+            "name":"R Programming Course",
+            "discription":"Learn r programming online. Sign up for this online r progra ...",
+            "price_b":"5999",
+            "price_a":"2999",
+            "emi":"EMI Starting at ₹ 172/month"
+        }
+    ],
+    "Jobs":[
+        {
+            "img":"https://assets.interntheory.com/creative/logo.png",
+            "heading":"Develop Your Skillset",
+            "company_name":"Online Skill Development Programs",
+            "category":"Certified Courses",
+            "city":"Guaranteed Internship Opportunities",
+            "stipend":"Learn Industry-Demanded Skills"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/logos/bf3174743fe71c1e3028caabc90044f486d5bc7b.jpg",
+            "heading":"Senior Manager- Finance & Compliance",
+            "company_name":"HomeCapital",
+            "category":"Finance",
+            "city":"Mumbai",
+            "stipend":"Salary: 165000 - 200000 per month"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/logos/5e4aa4f62ecc23200708c5cf0d542f7ee1345362.jpg",
+            "heading":"React JS Developer",
+            "company_name":"arham labs",
+            "category":"Software Development",
+            "city":"Mumbai",
+            "stipend":"Salary: 30000 - 40000 per month"
+        },
+        {
+            "img":"https://assets.interntheory.com/uploads/company/logos/0b27fd3c3939c9f43653b65a93cfc9fb85b9095d.jpg",
+            "heading":"Graphic Designer",
+            "company_name":"Post Card Media",
+            "category":"Graphic Designing",
+            "city":"Mumbai",
+            "stipend":"Salary: 30000 - 35000 per month"
+        }
+       
+    ]
+}

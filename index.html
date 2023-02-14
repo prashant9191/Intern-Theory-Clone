@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internships and Online courses</title>
+    <link rel="icon" href="https://s3.ap-south-1.amazonaws.com/interntheory/creative/favicon.ico"  type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/b4c8ae89b2.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+    <script>
+       $(document).ready(function(){
+       $('.sliderbtn').click(function(){
+        $('.sliderbtn').toggleClass('active');
+        $('#sidebar').toggleClass('inandout');
+        })
+      })
+    </script>
+    <!-- for slider part -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!-- nav bar and side bar -->
+  <div class="header">
+      <div  style="margin-left: 80px;">
+          <a href="./index.html"><img src="./HOME PAGE IMG/logo.png" style="width: 200px;" alt=""></a>
+      </div>
+      <div style="width: 250px;display: flex;justify-content: space-around;margin-right: 50px;">
+        <a href="./cart.html"><img src="./HOME PAGE IMG/cart.png" style="width: 25px;" alt=""></a>
+        <a href="./sign_in.html" target="_blank"><button style="background-color: red;color: white;border: none; padding: 12px 18px 10px 18px; border-radius: 5px;font-size: 10px;font-weight: bold;">SIGN IN</button></a>
+      </div>
+  </div>
+    <div id="sidebar">
+      <header>
+        <button class="sliderbtn">
+           <div class="hamburger">
+
+           </div>
+        </button>
+        <ul>
+          <li><a href="./index.html"><i class="fa fa-bars"></i><img src="./HOME PAGE IMG/logo.png" style="width: 150px;height: 45px;position: absolute;" alt=""></a></li>
+          <li><a href="./index.html"><i class="fa fa-house"></i>Home</a></li>
+          <li><a href="./internship.html" target="_blank"><i class="fa fa-list"></i>Internships</a></li>
+          <li><a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+          <li><a href="./courses.html" target="_blank"><i class="fa fa-file"></i>Courses</a></li>
+          <li><a href="https://www.interntheory.com/contact" target="_blank"><i class="fa fa-phone"></i>Contact Us</a></li>
+          <li><a href="./registeration.html" target="_blank"><i class="fa fa-address-card"></i>Register</a></li>
+          <li><a href="./sign_in.html" target="_blank"><i class="fa fa-right-to-bracket"></i>Login</a></li>
+        </ul>
+      </header>
+    </div>
+
+<!-- banner with search box in it  -->
+<div id="banner">
+ <h5>Let's Get You <span>Ready</span></h5>
+ <p>The One Stop to Upgrade Your Resume. Expand  Your Skillset. Do An Internship. Get Placed</p>
+    <div id="search_container">
+      <div class="s_buttons">
+        <select name="" id="n_city">
+        <option value="">Selet Your Nearest City</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Ahmedabad">Ahmedabad</option>
+        <option value="Gurgaon">Gurgaon</option>
+        </select>
+      </div>
+     <div class="s_buttons">
+      <select name="" id="t_ype">
+        <option value="">Type</option>
+        <option value="Full Time Internship">Full Time Internship</option>
+        <option value="Work From Home Internship">Work From Home Internship</option>
+        <option value="Part Time Internship">Part Time Internship</option>
+        </select>
+     </div>
+      <div class="s_buttons">
+        <select name="" id="pre">
+          <option value="">Preferences...</option>
+          <option value="Marketing">Marketing</option>
+          <option value="Digital Marketing">Digital Marketing</option>
+          <option value="Education And Training">Education And Training</option>
+          <option value="Psychology">Psychology</option>
+          <option value="Content Writing">Content Writing</option>
+          <option value="Graphic Designing">Graphic Designing</option>
+          <option value="Customer Relationship Management">Customer Relationship Management</option>
+          <option value="Human Resources">Human Resources</option>
+          <option value="Event Management">Event Management</option>
+          <option value="Advertising">Advertising</option>
+          <option value="Operations">Operations</option>
+          </select>
+      </div>
+     <p>OR</p>
+     <div class="s_buttons">
+       <input id="search_input" type="text" placeholder="Search...">
+       <input id="s_earch" type="submit" value="SEARCH">
+     </div>
+    </div>
+</div>
+<!-- mid section of 2 divs -->
+<div id="mid_cont">
+  <div>
+     <h1>PLETHORA OF OPPORTUNITIES <span>FOR YOU</span> </h1>
+     <p>We are on a mission to connect employers to young talent all over India. With our strong corporate network, it will no longer be a challenge to find the right internship for you</p>
+  </div>
+  <div id="container_logo">
+  </div>
+</div>
+<div id="work_ex">
+  <div>
+    <h1>LET’S GET SOME <span>WORK EXPERIENCE</span> </h1>
+  </div>
+  <div id="workex_pics">
+  </div>
+</div>
+<!-- creating upskilling section  -->
+<div id="upskilling">
+  <div>
+    <h1>HOW ABOUT <span>UPSKILLING ?</span> </h1>
+  </div>
+  <div id="up_skilling">
+  </div>
+</div>
+<!-- we are constently growing section  -->
+<div id="growing">
+  <div>
+     <img src="./HOME PAGE IMG/growth.png" alt="growth tree">
+  </div>
+   <div>
+      <h1>WE ARE CONSTANTLY <span>GROWING</span></h1>
+   
+     <p>We are on a mission to help every student in India. Upgrading your CV and getting you a meaningful job remains our sole motive and we are not stopping anytime soon.</p>
+    </div>
+</div>
+<!-- testimonials with AUTOMATIC SLIDER bottom section  -->
+<div id="testimonial">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div id="testimonial_parts" class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div>
+          <div>
+            <img src="https://assets.interntheory.com/img/testimonial-image/in4.jpg" alt="">
+            <h2>Harshil Bhadra</h2>
+            <h5>Intern at Porsche</h5>
+          </div>
+          <div>
+            <p>"If you are more than satisfied with a particular product/firm who gives you more than you expect then there’s no need to find a substitute. Its similar with Intern Theory, the best team who makes continuous efforts and always ready to help! Thanks for giving me the best start."</p>
+          </div>
+        </div>   
+      </div>
+    </div>
+  
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+  <!-- footer part  -->
+  <div id="footer">
+    <div id="top_footer">
+      <div id="logo_footer_container">
+        <div id="logo_footer">
+          <li><a href="https://www.facebook.com/interntheory"target="_blank"><i class="fa-brands fa-square-facebook fa-2x "style="color:white"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/interntheory/"target="_blank"><i class="fa-brands fa-linkedin fa-2x"style="color:white"></i></a></li>
+          <li><a href="https://twitter.com/InternTheory"target="_blank"><i class="fa-brands fa-square-twitter fa-2x"style="color:white"></i></a></li>
+          <li><a href="https://www.instagram.com/interntheory/" target="_blank"><i class="fa-brands fa-square-instagram fa-2x"style="color:white"></i></a></li>
+        </div>
+      </div>
+      <div id="filter_by">
+        <div id="by_place">
+          <li style="border-bottom: 1px solid;margin-bottom: 6px;">BY PLACE</li>
+          <li><a href="./internship.html"></a>Internship In Mumbai</li>
+          <li><a href="./internship.html"></a>Internship In Delhi</li>
+          <li><a href="./internship.html"></a>Internship In Banglore</li>
+          <li><a href="./internship.html"></a>Internship In Pune</li>
+          <li><a href="./internship.html"></a>Internship In Hydrabad</li>
+         </div>
+         <div id="profile">
+           <li style="border-bottom: 1px solid;margin-bottom: 6px;">BY PROFILE</li>
+           <li><a href="./internship.html"></a>Marketing Internship</li>
+           <li><a href="./internship.html"></a>Business Development Internship</li>
+           <li><a href="./internship.html"></a>Content Writing Internship</li>
+           <li><a href="./internship.html"></a>Graphic Desigining Internship</li>
+           <li><a href="./internship.html"></a>HR Internship</li>
+           <li><a href="./internship.html"></a>Engineering Internship</li>
+         </div>
+         <div id="by_type">
+           <li style="border-bottom: 1px solid;margin-bottom: 6px;">BY PROFILE</li>
+           <li><a href="./internship.html"></a>Full Time Internship</li>
+           <li><a href="./internship.html"></a>Part Time Internship</li>
+           <li><a href="./internship.html"></a>Work From Home Internship</li>
+         </div>
+      </div>
+      
+    </div>
+    <div id="bottom_footer">
+      <a href="https://www.interntheory.com/refund-and-cancellation-policy" target="_blank"><p>REFUND & CANCELLATION POLICY</p></a>
+      <a href="./courses.html"><p>COURSES</p></a>
+      <a href="https://www.interntheory.com/terms"target="_blank"><p>TERMS AND CONDITIONS</p></a>
+      <a href="https://www.interntheory.com/privacy"target="_blank"><p>PRIVACY POLICY</p></a>
+      <a href="https://www.interntheory.com/contact"target="_blank"><p>CONTACT US</p></a>
+      <a href="https://www.interntheory.com/about"target="_blank"><p>ABOUT US</p></a>
+      <p>SITEMAP</p>
+    </div>
+    <p>© 2015 - 2022 INTERNTHEORY. ALL RIGHTS RESERVED.</p>
+  </div>  
+</body>
+</html>

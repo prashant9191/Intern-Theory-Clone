@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Sign In</title>
+    <link rel="stylesheet" href="./sign_in.css">
+    <link rel="icon" href="https://s3.ap-south-1.amazonaws.com/interntheory/creative/favicon.ico"  type="image/x-icon">
+
+<!-- for nav bar and side bar -->
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+    <script src="https://kit.fontawesome.com/b4c8ae89b2.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+        $('.sliderbtn').click(function(){
+         $('.sliderbtn').toggleClass('active');
+         $('#sidebar').toggleClass('inandout');
+         })
+       })
+     </script>
+     <!-- for nav bar and side bar -->
+</head>
+<body>
+    <!-- nav bar and slider bar -->
+    <div class="header">
+        <div  style="margin-left: 80px;">
+            <a href="./index.html"><img src="./HOME PAGE IMG/logo.png" style="width: 200px;" alt=""></a>
+        </div>
+        <div style="width: 250px;display: flex;justify-content: space-around;margin-right: 50px;">
+          <a href="./cart.html"><img src="./HOME PAGE IMG/cart.png" style="width: 25px;" alt=""></a>
+          <a href="./sign_in.html"><button style="background-color: red;color: white;border: none; padding: 10px 15px 10px 15px; border-radius: 5px;font-size: 10px;font-weight: bold;">SIGN IN</button></a>
+        </div>
+    </div>
+      <div id="sidebar">
+        <header>
+          <button class="sliderbtn">
+             <div class="hamburger">
+  
+             </div>
+          </button>
+          <ul>
+            <li><a href="./index.html"><i class="fa fa-bars"></i><img src="./HOME PAGE IMG/logo.png" style="width: 150px;height: 45px;position: absolute;" alt=""></a></li>
+            <li><a href="./index.html"><i class="fa fa-house"></i>Home</a></li>
+            <li><a href="./internship.html" target="_blank"><i class="fa fa-list"></i>Internships</a></li>
+            <li><a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+            <li><a href="./courses.html" target="_blank"><i class="fa fa-file"></i>Courses</a></li>
+            <li><a href="https://www.interntheory.com/contact" target="_blank"><i class="fa fa-phone"></i>Contact Us</a></li>
+            <li><a href="./registeration.html" target="_blank"><i class="fa fa-address-card"></i>Register</a></li>
+            <li><a href="./sign_in.html" target="_blank"><i class="fa fa-right-to-bracket"></i>Login</a></li>
+          </ul>
+        </header>
+      </div>
+      
+<!-- login form div -->
+<form id="form">
+  <div id="registration">
+    <div>
+        <h5>User Login</h5>
+        <h6>Don't have an account? <a href="./registeration.html"target="_blank">Register here</a></h6>
+        <p>If you are a company looking to hire interns, please register as a company by clicking <a href="">here.</a></p>
+        <div id="login_with">
+            <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=428399661061982&kid_directed_site=0&app_id=428399661061982&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv3.0%2Fdialog%2Foauth%3Fclient_id%3D428399661061982%26redirect_uri%3Dhttps%253A%252F%252Finterntheory.com%252Fapi%252Ffacebook%252Fcallback%26scope%3Demail%26response_type%3Dcode%26state%3Dz0bhln4nsgFFxw9jNPHiM4nlgd4zt2aZpqj2Rz2l%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D1f6498cc-b7ee-456d-a9b0-7cf648ee6412%26tp%3Dunspecified&cancel_url=https%3A%2F%2Finterntheory.com%2Fapi%2Ffacebook%2Fcallback%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3Dz0bhln4nsgFFxw9jNPHiM4nlgd4zt2aZpqj2Rz2l%23_%3D_&display=page&locale=en_GB&pl_dbl=0" target="_blank"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+            <span>LOGIN WITH FACEBOOK</span>
+        </div>
+        <div id="login_with_g">
+            <a href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?client_id=309612518460-n4a9a9hlrg1u1feativb8pvt61v0do70.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Finterntheory.com%2Fapi%2Fgoogle%2Fcallback&scope=openid%20profile%20email&response_type=code&state=t0bOPXtI5zJnjx6DfgI9BUDTGpKOhlk9ShX01bz4&service=lso&o2v=1&flowName=GeneralOAuthFlow" target="_blank"><i class="fa-brands fa-google fa-2x"></i></a>
+            <span>LOGIN WITH GOOGLE</span>
+        </div>
+        <h6>OR</h6>
+        <div>
+            <input type="text" name="" placeholder="Enter Email / Phone Number" id="e_uname">
+        </div>
+        <div>
+            <input type="password" name="" placeholder="Enter Password" id="p_uname">
+        </div>
+        <div id="remember">
+            <div style="display: flex;justify-content: space-between;width: 20%;">
+                <input type="checkbox">
+                <p>Remember Me</p>
+            </div>
+            <div>
+                <a href="#"><p style="color:#1565C0;font-weight: 500;">Forgot Password?</p></a>
+            </div>
+        </div>
+        <div style="justify-content: center;">
+            <p >Don't have an account? <a href="./registeration.html" target="_blank"><span style="color: #1565C0;">Create Your Account</span></a></p>
+        </div>
+        <div id="sub_mit_btn">
+          <input id="submit_btn" type="submit" value="SUBMIT">
+        </div>
+    </div>
+  </div>
+</form>
+ <!-- footer part  -->
+ <div id="footer">
+    <div id="top_footer">
+      <div id="logo_footer_container">
+        <div id="logo_footer">
+          <li><a href="https://www.facebook.com/interntheory"target="_blank"><i class="fa-brands fa-square-facebook fa-2x "style="color:white"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/interntheory/"target="_blank"><i class="fa-brands fa-linkedin fa-2x"style="color:white"></i></a></li>
+          <li><a href="https://twitter.com/InternTheory"target="_blank"><i class="fa-brands fa-square-twitter fa-2x"style="color:white"></i></a></li>
+          <li><a href="https://www.instagram.com/interntheory/" target="_blank"><i class="fa-brands fa-square-instagram fa-2x"style="color:white"></i></a></li>
+        </div>
+      </div>
+      <div id="filter_by">
+        <div id="by_place">
+          <li style="border-bottom: 1px solid;margin-bottom: 6px;">BY PLACE</li>
+          <li><a href="./internship.html"></a>Internship In Mumbai</li>
+          <li><a href="./internship.html"></a>Internship In Delhi</li>
+          <li><a href="./internship.html"></a>Internship In Banglore</li>
+          <li><a href="./internship.html"></a>Internship In Pune</li>
+          <li><a href="./internship.html"></a>Internship In Hydrabad</li>
+         </div>
+         <div id="profile">
+           <li style="border-bottom: 1px solid;margin-bottom: 6px;">BY PROFILE</li>
+           <li><a href="./internship.html"></a>Marketing Internship</li>
+           <li><a href="./internship.html"></a>Business Development Internship</li>
+           <li><a href="./internship.html"></a>Content Writing Internship</li>
+           <li><a href="./internship.html"></a>Graphic Desigining Internship</li>
+           <li><a href="./internship.html"></a>HR Internship</li>
+           <li><a href="#./internship.html"></a>Engineering Internship</li>
+         </div>
+         <div id="by_type">
+           <li style="border-bottom: 1px solid;margin-bottom: 6px;">BY PROFILE</li>
+           <li><a href="./internship.html"></a>Full Time Internship</li>
+           <li><a href="./internship.html"></a>Part Time Internship</li>
+           <li><a href="./internship.html"></a>Work From Home Internship</li>
+         </div>
+      </div>
+      
+    </div>
+    <div id="bottom_footer">
+      <a href="https://www.interntheory.com/refund-and-cancellation-policy" target="_blank"><p>REFUND & CANCELLATION POLICY</p></a>
+      <a href="./courses.html"><p>COURSES</p></a>
+      <a href="https://www.interntheory.com/terms"target="_blank"><p>TERMS AND CONDITIONS</p></a>
+      <a href="https://www.interntheory.com/privacy"target="_blank"><p>PRIVACY POLICY</p></a>
+      <a href="https://www.interntheory.com/contact"target="_blank"><p>CONTACT US</p></a>
+      <a href="https://www.interntheory.com/about"target="_blank"><p>ABOUT US</p></a>
+      <p>SITEMAP</p>
+    </div>
+    <p>© 2015 - 2022 INTERNTHEORY. ALL RIGHTS RESERVED.</p>
+  </div>  
+
+</body>
+<script>
+  let userData=JSON.parse(localStorage.getItem("User_Data"))||[];
+let form_d=document.getElementById("form");
+form_d.addEventListener("submit",(e)=>{
+    e.preventDefault();
+  let Email=form_d.e_uname.value;
+  let pass=form_d.p_uname.value;
+  let my=0;
+  userData.forEach((el) => {
+    if(el.email==Email && el.password==pass){
+      my=1;
+    }
+  });
+  if(my==1){
+    alert("Login Successful");
+  }else{
+    alert("Please Enter Correct Details");
+  }
+});
+</script>
+</html>

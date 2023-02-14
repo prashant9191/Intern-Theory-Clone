@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registation</title>
+    <link rel="stylesheet" href="./registration_styles.css">
+    <link rel="icon" href="https://s3.ap-south-1.amazonaws.com/interntheory/creative/favicon.ico"  type="image/x-icon">
+<!-- for nav bar and side bar -->
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+    <script src="https://kit.fontawesome.com/b4c8ae89b2.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+        $('.sliderbtn').click(function(){
+         $('.sliderbtn').toggleClass('active');
+         $('#sidebar').toggleClass('inandout');
+         })
+       })
+     </script>
+     <!-- for nav bar and side bar -->
+</head>
+<body>
+    <!-- nav bar and slider bar -->
+    <div class="header">
+        <div  style="margin-left: 80px;">
+            <a href="./index.html"><img src="./HOME PAGE IMG/logo.png" style="width: 200px;" alt=""></a>
+        </div>
+        <div style="width: 250px;display: flex;justify-content: space-around;margin-right: 50px;">
+            <a href="./cart.html"><img src="./HOME PAGE IMG/cart.png" style="width: 25px;" alt=""></a>
+            <button style="background-color: red;color: white;border: none; padding: 10px 15px 10px 15px; border-radius: 5px;font-size: 10px;font-weight: bold;">SIGN IN</button>
+        </div>
+    </div>
+      <div id="sidebar">
+        <header>
+          <button class="sliderbtn">
+             <div class="hamburger">
+  
+             </div>
+          </button>
+          <ul>
+            <li><a href="./index.html"><i class="fa fa-bars"></i><img src="./HOME PAGE IMG/logo.png" style="width: 150px;height: 45px;position: absolute;" alt=""></a></li>
+            <li><a href="./index.html"><i class="fa fa-house"></i>Home</a></li>
+            <li><a href="./internship.html" target="_blank"><i class="fa fa-list"></i>Internships</a></li>
+            <li><a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+            <li><a href="./courses.html" target="_blank"><i class="fa fa-file"></i>Courses</a></li>
+            <li><a href="https://www.interntheory.com/contact" target="_blank"><i class="fa fa-phone"></i>Contact Us</a></li>
+            <li><a href="./registeration.html" target="_blank"><i class="fa fa-address-card"></i>Register</a></li>
+            <li><a href="./sign_in.html"><i class="fa fa-right-to-bracket"></i>Login</a></li>
+          </ul>
+        </header>
+      </div>
+      
+<!-- Registation form div -->
+<div id="registration">
+    <div>
+        <h5>Register Candidate</h5>
+        <h6>Already have an account? <a href="./sign_in.html" target="_blank"> Sign in</a></h6>
+        <p>If you are a company looking to hire interns, please register as a company by clicking <a href="">here.</a></p>
+        <div id="login_with">
+            <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=428399661061982&kid_directed_site=0&app_id=428399661061982&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv3.0%2Fdialog%2Foauth%3Fclient_id%3D428399661061982%26redirect_uri%3Dhttps%253A%252F%252Finterntheory.com%252Fapi%252Ffacebook%252Fcallback%26scope%3Demail%26response_type%3Dcode%26state%3Dz0bhln4nsgFFxw9jNPHiM4nlgd4zt2aZpqj2Rz2l%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D1f6498cc-b7ee-456d-a9b0-7cf648ee6412%26tp%3Dunspecified&cancel_url=https%3A%2F%2Finterntheory.com%2Fapi%2Ffacebook%2Fcallback%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3Dz0bhln4nsgFFxw9jNPHiM4nlgd4zt2aZpqj2Rz2l%23_%3D_&display=page&locale=en_GB&pl_dbl=0" target="_blank"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+            <span>REGISTER WITH FACEBOOK</span>
+        </div>
+        <div id="login_with_g">
+            <a href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?client_id=309612518460-n4a9a9hlrg1u1feativb8pvt61v0do70.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Finterntheory.com%2Fapi%2Fgoogle%2Fcallback&scope=openid%20profile%20email&response_type=code&state=t0bOPXtI5zJnjx6DfgI9BUDTGpKOhlk9ShX01bz4&service=lso&o2v=1&flowName=GeneralOAuthFlow" target="_blank"><i class="fa-brands fa-google fa-2x"></i></a>
+            <span>REGISTER WITH GOOGLE</span>
+        </div>
+        <h6>OR</h6>
+    <form  id="form">
+        <div>
+            <input type="text" name="" placeholder="First Name*" id="f_uname">
+        </div>
+        <div>
+            <input type="text" name="" placeholder="Last Name*" id="l_uname">
+        </div>
+        <div>
+            <input type="email" name="" placeholder="Enter Email" id="e_uname">
+        </div>
+        <div>
+            <input type="password" name="" placeholder="Enter Password" id="p_uname">
+        </div>
+        <div style="margin-top: 10px ;">
+            <select name="cities" style="border:none;width: 100%;border-bottom: 1px solid;padding-bottom: 9px;" id="g_uname">
+                <option value="">Select Your Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Transgender">Transgender</option>
+            </select>
+        </div>
+        <div>
+            <input type="number" name="" placeholder="Enter Your Age" id="a_uname">
+        </div>
+        <div id="mob_input">
+            <input type="number" name="" placeholder="Mobile Number*" id="m_uname">
+        </div>
+        <div class="select_drops">
+            <select name="cities" id="c_uname">
+                <option value="">Select Nearest City </option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+                <option value="Hydrabad">Hydrabad</option>
+            </select>
+        </div>
+        <div class="select_drops">
+            <select class="form-control dropdown" id="education" name="education">
+                <option value="" selected="selected" disabled="disabled">Education Details</option>
+                <option value="No formal education">No formal education</option>
+                <option value="Primary education">Primary education</option>
+                <option value="Secondary education">Secondary education or high school</option>
+                <option value="GED">GED</option>
+                <option value="Vocational qualification">Vocational qualification</option>
+                <option value="Bachelor's degree">Bachelor's degree</option>
+                <option value="Master's degree">Master's degree</option>
+                <option value="Doctorate or higher">Doctorate or higher</option>
+              </select>
+        </div>
+        <div class="select_drops">
+            <select name="cities" id="work_exp">
+                <option value="">Work Experience</option>
+                <option value="No Work Experience"> No Work Experience</option>
+                <option value="Less than 1 Years">Less than 1 Years</option>
+                <option value="Less than 3 Years">Less than 3 Years</option>
+                <option value="Less than 5 Years">Less than 5 Years</option>
+                <option value="Less than 8 Years">Less than 8 Years</option>
+                <option value="More that 8 Years">More that 8 Years</option>
+            </select>
+        </div>
+        <div class="select_drops">
+            <select name="Preferences" id="Preference" >
+                <option value="">Preference*</option>
+                <option value="Marketing Internships">Marketing Internships</option>
+                <option value="Business Development Internships">Business Development Internships</option>
+                <option value="Content Writing Internships">Content Writing Internships</option>
+                <option value="Graphic Designing Internships">Graphic Designing Internships</option>
+                <option value="HR Internships">HR Internships</option>
+            </select>
+        </div>
+        <div class="select_drops">
+            <select name="found us" id="find">
+                <option value="">How did you find us?*</option>
+                <option value="">From a Friend</option>
+                <option value="">Google Ads</option>
+                <option value="">Youtube</option>
+                <option value="">Social Media</option>
+                <option value="">Others</option>
+            </select>
+        </div>
+        <div class="select_drops">
+            <select name="looking for" id="looking">
+                <option value="">What are you looking for?*</option>
+                <option value="Internship">Internship</option>
+                <option value="Job">Job</option>
+                <option value="Both">Both</option>
+            </select>
+        </div>
+        <div id="sub_mit_btn">
+            <input id="submit_btn" type="submit" value="SUBMIT" />
+        </div>
+    </form>
+    </div>
+</div>
+ <!-- footer part  -->
+ <div id="footer">
+    <div id="top_footer">
+      <div id="logo_footer_container">
+        <div id="logo_footer">
+          <li><a href="https://www.facebook.com/interntheory"target="_blank"><i class="fa-brands fa-square-facebook fa-2x "style="color:white"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/interntheory/"target="_blank"><i class="fa-brands fa-linkedin fa-2x"style="color:white"></i></a></li>
+          <li><a href="https://twitter.com/InternTheory"target="_blank"><i class="fa-brands fa-square-twitter fa-2x"style="color:white"></i></a></li>
+          <li><a href="https://www.instagram.com/interntheory/" target="_blank"><i class="fa-brands fa-square-instagram fa-2x"style="color:white"></i></a></li>
+        </div>
+      </div>
+      <div id="filter_by">
+        <div id="by_place">
+          <li style="border-bottom: 1px solid;margin-bottom: 6px;">BY PLACE</li>
+          <li><a href="./internship.html"></a>Internship In Mumbai</li>
+          <li><a href="./internship.html"></a>Internship In Delhi</li>
+          <li><a href="./internship.html"></a>Internship In Banglore</li>
+          <li><a href="./internship.html"></a>Internship In Pune</li>
+          <li><a href="./internship.html"></a>Internship In Hydrabad</li>
+         </div>
+         <div id="profile">
+           <li style="border-bottom: 1px solid;margin-bottom: 6px;">BY PROFILE</li>
+           <li><a href="./internship.html"></a>Marketing Internship</li>
+           <li><a href="./internship.html"></a>Business Development Internship</li>
+           <li><a href="./internship.html"></a>Content Writing Internship</li>
+           <li><a href="./internship.html"></a>Graphic Desigining Internship</li>
+           <li><a href="./internship.html"></a>HR Internship</li>
+           <li><a href="./internship.html"></a>Engineering Internship</li>
+         </div>
+         <div id="by_type">
+           <li style="border-bottom: 1px solid;margin-bottom: 6px;">BY PROFILE</li>
+           <li><a href="./internship.html"></a>Full Time Internship</li>
+           <li><a href="./internship.html"></a>Part Time Internship</li>
+           <li><a href="./internship.html"></a>Work From Home Internship</li>
+         </div>
+      </div>
+      
+    </div>
+    <div id="bottom_footer">
+      <a href="https://www.interntheory.com/refund-and-cancellation-policy" target="_blank"><p>REFUND & CANCELLATION POLICY</p></a>
+      <a href="./courses.html"><p>COURSES</p></a>
+      <a href="https://www.interntheory.com/terms"target="_blank"><p>TERMS AND CONDITIONS</p></a>
+      <a href="https://www.interntheory.com/privacy"target="_blank"><p>PRIVACY POLICY</p></a>
+      <a href="https://www.interntheory.com/contact"target="_blank"><p>CONTACT US</p></a>
+      <a href="https://www.interntheory.com/about"target="_blank"><p>ABOUT US</p></a>
+      <p>SITEMAP</p>
+    </div>
+    <p>© 2015 - 2022 INTERNTHEORY. ALL RIGHTS RESERVED.</p>
+  </div>  
+
+</body>
+<script>
+let userData=JSON.parse(localStorage.getItem("User_Data"))||[];
+let form_d=document.getElementById("form");
+form_d.addEventListener("submit",(e)=>{
+    e.preventDefault();
+   let obj={
+      "name":form_d.f_uname.value,
+      "email":form_d.e_uname.value,
+      "password":form_d.p_uname.value,
+      "gender":form_d.g_uname.value,
+      "age":form_d.a_uname.value,
+      "mobile":form_d.m_uname.value,
+      "city":form_d.c_uname.value,
+      "education":form_d.education.value,
+      "work_exp":form_d.work_exp.value,
+      "Preference":form_d.Preference.value,
+      "find":form_d.find.value,
+      "looking":form_d.looking.value,
+   };
+   userData.push(obj);
+    localStorage.setItem("User_Data",JSON.stringify(userData));
+    location.href = './sign_in.html';
+});
+
+</script>
+</html>
