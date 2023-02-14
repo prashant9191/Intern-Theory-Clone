@@ -4,6 +4,11 @@
  
 This is clone of https://www.interntheory.com/ using html css and js
 
+# Netlify Deployed link
+
+https://famous-chebakia-bf6abc.netlify.app/
+
+
 # AIM- 
 
 To connect  employers to young talent all over India.
