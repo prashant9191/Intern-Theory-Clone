@@ -6,7 +6,7 @@ This is clone of https://www.interntheory.com/ using html css and js
 
 # Netlify Deployed link
 
-https://famous-chebakia-bf6abc.netlify.app/
+https://famous-chebakia-bf6abc.netlify.app/?_taget=blank
 
 
 # AIM- 
