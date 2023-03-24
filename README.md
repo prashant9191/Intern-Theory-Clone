@@ -4,9 +4,9 @@
  
 This is clone of https://www.interntheory.com/ using html css and js
 
-# Netlify Deployed link
+# Vercel Deployed link
 
-https://famous-chebakia-bf6abc.netlify.app/
+https://intern-theory-clone-kohl.vercel.app/
 
 
 # AIM- 
