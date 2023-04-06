@@ -35,4 +35,7 @@ HTML, CSS, Javascript
 
 6.Checkout Page for payments.
 
+# Plan:
+
+![intern theory  clone Full plan](https://user-images.githubusercontent.com/115460521/230261587-6e6bd411-3e86-4634-b67b-6c9b69129555.png)
 
